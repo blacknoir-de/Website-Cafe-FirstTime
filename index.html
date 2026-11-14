@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Sudut Seduh</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img src="Aset/Logo Cave.png" alt="Logo" />
+          </a>
+
+          <!-- Tombol Garis Tiga (Muncul hanya di layar Mobile) -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menuMobile"
+            aria-controls="menuMobile"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Daftar Menu (Akan terlipat saat di Mobile, sejajar saat di Desktop) -->
+          <div class="collapse navbar-collapse" id="menuMobile">
+            <div class="row w-100 text-center align-items-center">
+              <div class="col-md-4">
+                <a href="#Menu">Menu</a>
+              </div>
+              <div class="col-md-4">
+                <a href="#ContactMe">Contact</a>
+              </div>
+              <div class="col-md-4">
+                <a href="#ContactMe">Contact</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div
+      id="headerSlider"
+      class="carousel slide header-slider"
+      data-bs-ride="carousel"
+    >
+      <!-- Indikator -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#headerSlider"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#headerSlider"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#headerSlider"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+
+      <!-- Isi Slide -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Aset/View Cafe.jpg" alt="Slide 1" />
+        </div>
+        <div class="carousel-item">
+          <img src="Aset/Lobi Cafe.jpg" alt="Slide 2" />
+        </div>
+        <div class="carousel-item">
+          <img src="Aset/Beranda Cafe.jpg" alt="Slide 3" />
+        </div>
+      </div>
+
+      <!-- Tombol Navigasi -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#headerSlider"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Sebelumnya</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#headerSlider"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Berikutnya</span>
+      </button>
+    </div>
+    <h1 class="Judul">Cafe Sudut Seduh</h1>
+    <p>Tempat Nongkrong Anak Muda Kekinian</p>
+
+    <!-- ISi -->
+    <div class="container-flex">
+      <div class="bio">
+        <div class="row">
+          <div class="col-md-8">
+            <p>
+              Sudut Seduh adalah ruang singgah bagi para penikmat kopi dan
+              pencari ketenangan. Menyajikan biji kopi lokal pilihan yang
+              diseduh dengan presisi, ditemani sajian ringan yang hangat. Tempat
+              terbaik untuk bekerja, bercerita, atau sekadar melepas penat.
+              Setiap sudut punya cerita, setiap seduhan punya rasa.
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <div class="logo"><img src="Aset/kopi.png" alt="kopi" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h1 id="Menu">Best Menu Here!!</h1>
+
+    <div class="row MenuKopi">
+      <div class="col-md-4">
+        <div class="img"><img src="Aset/Kopi Hitam.jpg" alt="KopiHitam" /></div>
+        <p class="Jenis">Kopi Hitam</p>
+        <p class="Harga">Rp. 5.000,00</p>
+        <p class="Jenis"><a href="MenuBeli" class="Beli">Beli Sekarang</a></p>
+      </div>
+      <div class="col-md-4">
+        <div class="img"><img src="Aset/Kopi Latte.jpg" alt="KopiLatte" /></div>
+        <p class="Jenis">Kopi Latte</p>
+        <p class="Harga">Rp. 8.000,00</p>
+        <p class="Jenis"><a href="MenuBeli" class="Beli">Beli Sekarang</a></p>
+      </div>
+      <div class="col-md-4">
+        <div class="img"><img src="Aset/Kopi Susu.jpg" alt="KopiSusu" /></div>
+        <p class="Jenis">Kopi Susu</p>
+        <p class="Harga">Rp. 6.000,00</p>
+        <p class="Jenis"><a href="MenuBeli" class="Beli">Beli Sekarang</a></p>
+      </div>
+    </div>
+  </body>
+  <footer class="container-grid footer">
+    <div class="row">
+      <div class="col-md-6 col-sm-6 mb-4">
+        <h5>Ikuti Kami</h5>
+        <div class="sosial mb-3">
+          <a href="#" title="Facebook">FB</a>
+          <a href="#" title="Instagram">IG</a>
+          <a href="#" title="Twitter">TW</a>
+          <a href="#" title="Youtube">YT</a>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-6 mb-4">
+        <h5>newsLetter</h5>
+        <form
+          class="newsLetter"
+           onsubmit="
+            event.preventDefault();
+            alert('Terimakasih telah berlangganan!');
+          "
+        >
+        <div class="input-group">
+          <input
+            type="email"
+            class="form-control"
+            placeholder="Email Anda"
+            required
+          />
+          <button type="submit">Kirim</button>
+      </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="footer-bottom">
+      &copy; 2026 <strong>Cafe Sudut Seduh</strong>. All rights reserved.
+    </div>
+  </footer>
+</html>
