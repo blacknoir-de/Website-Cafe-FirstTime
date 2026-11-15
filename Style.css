@@ -259,3 +259,97 @@ p {
       .footer-bottom strong {
         color: #d87e34;
       }
+
+/* ====== RESPONSIVE MOBILE & TABLET ADJUSTMENTS ====== */
+@media (max-width: 991px) {
+  .Judul,
+  #Menu {
+    font-size: 55px;
+    padding: 0 15px;
+  }
+
+  p {
+    font-size: 24px;
+    padding: 0 15px;
+  }
+
+  .bio {
+    padding: 20px;
+  }
+
+  .bio p {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .logo {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .MenuKopi .Jenis {
+    font-size: 32px;
+    margin-top: 15px;
+  }
+
+  .MenuKopi .Harga {
+    font-size: 22px;
+  }
+
+  .MenuKopi .Beli {
+    font-size: 20px;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+  }
+
+  .MenuKopi img {
+    max-height: 260px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.15);
+  }
+}
+
+@media (max-width: 576px) {
+  header img {
+    height: 55px;
+  }
+
+  .Judul,
+  #Menu {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .bio p {
+    font-size: 16px;
+  }
+
+  .header-slider .carousel-caption {
+    padding: 8px 12px;
+    bottom: 10px;
+  }
+
+  .header-slider .carousel-caption h4 {
+    font-size: 16px;
+  }
+
+  .header-slider .carousel-caption p {
+    font-size: 12px;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 30px 15px 0;
+  }
+
+  .footer .sosial {
+    margin-bottom: 25px;
+  }
+
+  .footer .newsLetter {
+    display: flex;
+    justify-content: center;
+  }
+}
